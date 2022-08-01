@@ -51,7 +51,7 @@ if(filesize < 1024*300  && mimtype == 'text/plain'){
      })
 }
 else{
-  res.send('plz choose file text file and 30kb less then');
+  res.send('plz choose file 30kb less then');
 }
 })
 router.get('/form2',function(req,res,next){
